@@ -22,4 +22,16 @@ public class Capo {
 		return this.modello.getNome() + " " + this.colore.getNome() + " " + this.materiale.getNome();
 	}
 
+	public Colore getColore(){
+		return this.colore;
+	}
+
+	public Materiale getMateriale(){
+		return this.materiale;
+	}
+
+	public Modello getModello(){
+		return this.modello;
+	}
+
 }
